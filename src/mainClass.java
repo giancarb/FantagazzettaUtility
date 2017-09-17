@@ -22,93 +22,98 @@ public class mainClass {
 
         Map<String, Integer> teamMap =
                 new TreeMap<String, Integer>(String.CASE_INSENSITIVE_ORDER);
-        teamMap.put("STRAKOSHA", 0);
-        teamMap.put("PERIN", 1);
-        teamMap.put("GOMIS", 2);
-        teamMap.put("DE VRIJ", 3);
+
+
+        teamMap.put("BUFFON", 0);
+        teamMap.put("SZCZESNY", 1);
+        teamMap.put("PINSOGLIO", 2);
+        teamMap.put("GOSENS", 3);
         teamMap.put("MIRANDA", 4);
-        teamMap.put("BENATIA", 5);
-        teamMap.put("N'KOULOU", 6);
-        teamMap.put("LICHTSTEINER", 7);
-        teamMap.put("SKRINIAR", 8);
-        teamMap.put("BRUNO GASPAR", 9);
-        teamMap.put("DE SILVESTRI", 10);
-        teamMap.put("SUSO", 11);
-        teamMap.put("ZIELINSKI", 12);
-        teamMap.put("CANDREVA", 13);
-        teamMap.put("PEROTTI", 14);
-        teamMap.put("CUADRADO", 15);
-        teamMap.put("KESSIE", 16);
-        teamMap.put("BADELJ", 17);
-        teamMap.put("LUIS ALBERTO", 18);
-        teamMap.put("DYBALA", 19);
-        teamMap.put("QUAGLIARELLA", 20);
-        teamMap.put("MANDZUKIC", 21);
-        teamMap.put("INGLESE", 22);
-        teamMap.put("SAU", 23);
-        teamMap.put("BABACAR", 24);
+        teamMap.put("BASTA", 5);
+        teamMap.put("PEZZELLA", 6);
+        teamMap.put("TOLOI", 7);
+        teamMap.put("ASTORI", 8);
+        teamMap.put("RADU", 9);
+        teamMap.put("WIDMER", 10);
+        teamMap.put("JANKTO", 11);
+        teamMap.put("PJANIC", 12);
+        teamMap.put("ILICIC", 13);
+        teamMap.put("FLORENZI", 14);
+        teamMap.put("KHEDIRA", 15);
+        teamMap.put("BARELLA", 16);
+        teamMap.put("CASTRO", 17);
+        teamMap.put("D. COSTA", 18);
+        teamMap.put("GOMEZ", 19);
+        teamMap.put("SCHICK", 20);
+        teamMap.put("THEREAU", 21);
+        teamMap.put("CAPRARI", 22);
+        teamMap.put("PALACIO", 23);
+        teamMap.put("KOWNACKI", 24);
 
 
         Map<String, Integer> teamMapFanta =
                 new TreeMap<String, Integer>(String.CASE_INSENSITIVE_ORDER);
-        teamMapFanta.put("STRAKOSHA", 0);
-        teamMapFanta.put("PERIN", 1);
-        teamMapFanta.put("GOMIS A", 2);
-        teamMapFanta.put("DE VRIJ", 3);
+
+
+        teamMapFanta.put("BUFFON", 0);
+        teamMapFanta.put("SZCZESNY", 1);
+        teamMapFanta.put("PINSOGLIO", 2);
+        teamMapFanta.put("GOSENS", 3);
         teamMapFanta.put("MIRANDA", 4);
-        teamMapFanta.put("BENATIA", 5);
-        teamMapFanta.put("N'KOULOU", 6);
-        teamMapFanta.put("LICHTSTEINER", 7);
-        teamMapFanta.put("SKRINIAR", 8);
-        teamMapFanta.put("GASPAR", 9);
-        teamMapFanta.put("DE SILVESTRI", 10);
-        teamMapFanta.put("SUSO", 11);
-        teamMapFanta.put("ZIELINSKI", 12);
-        teamMapFanta.put("CANDREVA", 13);
-        teamMapFanta.put("PEROTTI", 14);
-        teamMapFanta.put("CUADRADO", 15);
-        teamMapFanta.put("KESSIE'", 16);
-        teamMapFanta.put("BADELJ", 17);
-        teamMapFanta.put("LUIS ALBERTO", 18);
-        teamMapFanta.put("DYBALA", 19);
-        teamMapFanta.put("QUAGLIARELLA", 20);
-        teamMapFanta.put("MANDZUKIC", 21);
-        teamMapFanta.put("INGLESE", 22);
-        teamMapFanta.put("SAU", 23);
-        teamMapFanta.put("BABACAR", 24);
+        teamMapFanta.put("BASTA", 5);
+        teamMapFanta.put("PEZZELLA GER", 6);
+        teamMapFanta.put("TOLOI", 7);
+        teamMapFanta.put("ASTORI", 8);
+        teamMapFanta.put("RADU", 9);
+        teamMapFanta.put("WIDMER", 10);
+        teamMapFanta.put("JANKTO", 11);
+        teamMapFanta.put("PJANIC", 12);
+        teamMapFanta.put("ILICIC", 13);
+        teamMapFanta.put("FLORENZI", 14);
+        teamMapFanta.put("KHEDIRA", 15);
+        teamMapFanta.put("BARELLA", 16);
+        teamMapFanta.put("CASTRO", 17);
+        teamMapFanta.put("DOUGLAS COSTA", 18);
+        teamMapFanta.put("GOMEZ A", 19);
+        teamMapFanta.put("SCHICK", 20);
+        teamMapFanta.put("THEREAU", 21);
+        teamMapFanta.put("CAPRARI", 22);
+        teamMapFanta.put("PALACIO", 23);
+        teamMapFanta.put("KOWNACKI", 24);
 
 
         Map<String, Integer> teamMapLower = new TreeMap<String, Integer>(String.CASE_INSENSITIVE_ORDER);
-        teamMapLower.put("Strakosha", 0);
-        teamMapLower.put("Perin", 1);
-        teamMapLower.put("Gomis A", 2);
-        teamMapLower.put("De Vrij", 3);
+
+
+        teamMapLower.put("Buffon", 0);
+        teamMapLower.put("Szczesny", 1);
+        teamMapLower.put("Pinsoglio", 2);
+        teamMapLower.put("Gosens", 3);
         teamMapLower.put("Miranda", 4);
-        teamMapLower.put("Benatia", 5);
-        teamMapLower.put("Nkoulou", 6);
-        teamMapLower.put("Lichtsteiner", 7);
-        teamMapLower.put("Skriniar", 8);
-        teamMapLower.put("Gaspar", 9);
-        teamMapLower.put("De Silvestri", 10);
-        teamMapLower.put("Suso", 11);
-        teamMapLower.put("Zielinski", 12);
-        teamMapLower.put("Candreva", 13);
-        teamMapLower.put("Perotti", 14);
-        teamMapLower.put("Cuadrado", 15);
-        teamMapLower.put("Kessie", 16);
-        teamMapLower.put("Badelj", 17);
-        teamMapLower.put("Luis Alberto", 18);
-        teamMapLower.put("Dybala", 19);
-        teamMapLower.put("Quagliarella", 20);
-        teamMapLower.put("Mandzukic", 21);
-        teamMapLower.put("Inglese", 22);
-        teamMapLower.put("Sau", 23);
-        teamMapLower.put("Babacar", 24);
+        teamMapLower.put("Basta", 5);
+        teamMapLower.put("Pezzella Ger", 6);
+        teamMapLower.put("Toloi", 7);
+        teamMapLower.put("Astori", 8);
+        teamMapLower.put("Radu", 9);
+        teamMapLower.put("Widmer", 10);
+        teamMapLower.put("Jankto", 11);
+        teamMapLower.put("Pjanic", 12);
+        teamMapLower.put("Ilicic", 13);
+        teamMapLower.put("FLorenzi", 14);
+        teamMapLower.put("Khedira", 15);
+        teamMapLower.put("Barella", 16);
+        teamMapLower.put("Castro", 17);
+        teamMapLower.put("Douglas Costa", 18);
+        teamMapLower.put("Gomez A", 19);
+        teamMapLower.put("Schick", 20);
+        teamMapLower.put("Thereau", 21);
+        teamMapLower.put("Caprari", 22);
+        teamMapLower.put("Palacio", 23);
+        teamMapLower.put("Kownacki", 24);
 
 
 
-
-        System.setProperty("webdriver.chrome.driver", "/Users/gianlucacarbone/IdeaProjects/Fantagazzetta/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/gianlucacarbone/IdeaProjects/FantagazzettaUtility/chromedriver");
         WebDriver driver = new ChromeDriver(options);
 
         //Go to Gazzetta Probabili Formazioni
@@ -128,10 +133,10 @@ public class mainClass {
         //p[4] : indisponibili, p[3] : squalificati, p[2] : Ballottaggio,  p[1] :Panchina
         List<WebElement> allDetailsAway = driver.findElements(By.className("awayDetails"));
 
-        Map<String, Object> panchinaAway = getMoreDetails(driver,teamMap,allDetailsAway,1);
-        Map<String, Object> ballottaggioAway = getMoreDetails(driver,teamMap,allDetailsAway,2);
-        Map<String, Object> squalificatiAway= getMoreDetails(driver,teamMap,allDetailsAway,3);
-        Map<String, Object> indisponibiliAway= getMoreDetails(driver,teamMap,allDetailsAway,4);
+        Map<String, Object> panchinaAway = getMoreDetails(teamMap,allDetailsAway,1);
+        Map<String, Object> ballottaggioAway = getMoreDetails(teamMap,allDetailsAway,2);
+        Map<String, Object> squalificatiAway= getMoreDetails(teamMap,allDetailsAway,3);
+        Map<String, Object> indisponibiliAway= getMoreDetails(teamMap,allDetailsAway,4);
 
         System.out.println("PanchinaAway: "+ panchinaAway.toString());
         System.out.println("BallottaggioAway: "+ ballottaggioAway.toString());
@@ -140,10 +145,10 @@ public class mainClass {
 
         List<WebElement> allDetailsHome = driver.findElements(By.className("homeDetails"));
 
-        Map<String, Object> panchinaHome = getMoreDetails(driver,teamMap,allDetailsHome,1);
-        Map<String, Object> ballottaggioHome = getMoreDetails(driver,teamMap,allDetailsHome,2);
-        Map<String, Object> squalificatiHome= getMoreDetails(driver,teamMap,allDetailsHome,3);
-        Map<String, Object> indisponibiliHome= getMoreDetails(driver,teamMap,allDetailsHome,4);
+        Map<String, Object> panchinaHome = getMoreDetails(teamMap,allDetailsHome,1);
+        Map<String, Object> ballottaggioHome = getMoreDetails(teamMap,allDetailsHome,2);
+        Map<String, Object> squalificatiHome= getMoreDetails(teamMap,allDetailsHome,3);
+        Map<String, Object> indisponibiliHome= getMoreDetails(teamMap,allDetailsHome,4);
 
         System.out.println("PanchinaHome: "+ panchinaHome.toString());
         System.out.println("BallottaggioHome: "+ ballottaggioHome.toString());
@@ -333,7 +338,7 @@ public class mainClass {
     }
 
 
-    public static Map<String, Object> getMoreDetails(WebDriver driver, Map<String, Integer> teamMap, List<WebElement> allDetailsAway, int type) {
+    public static Map<String, Object> getMoreDetails(Map<String, Integer> teamMap, List<WebElement> allDetailsAway, int type) {
 
         Map<String, Object> detail = new HashMap<>();
 
@@ -342,8 +347,10 @@ public class mainClass {
             String player = allDetailsAway.get(i).findElement(By.xpath("p[" + type + "]")).getText();
 
             for (Map.Entry<String, Integer> entry : teamMap.entrySet()) {
+                String lower= entry.getKey().substring(1,entry.getKey().length()).toLowerCase();
+                String lowerConcat= entry.getKey().substring(0,1).concat(lower);
 
-                if (player.contains(entry.getKey())) {
+                if (player.contains(entry.getKey()) || player.contains(lowerConcat)){
 
                     detail.put(entry.getKey(), entry.getValue());
                 }
